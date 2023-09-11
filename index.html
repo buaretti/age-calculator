@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Calculator</title>
-
+    <link rel="shortcut icon" href="imgs/minhafoto.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/mq.css">
 </head>
 <body>
-    
+    <main>
+        <p>
+            <label for="day">DAY</label>
+            <input type="number" name="day" id="day" placeholder="DD" required>
+            
+            <label for="month">MONTH</label>
+            <input type="number" name="month" id="month" placeholder="MM" required>
+
+            <label for="year">YEAR</label>
+            <input type="number" name="year" id="year" placeholder="YYYY" required>
+        </p>
+
+        <p>
+            <div id="years">--years</div>
+        </p>
+
+        <p>
+            <div id="months">--months</div>
+        </p>
+
+        <p>
+            <div id="days">--days</div>
+        </p>
+    </main>
+
+    <script src="script/js.js"></script>
 </body>
 </html>
