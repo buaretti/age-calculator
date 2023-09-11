@@ -7,31 +7,41 @@
     <link rel="shortcut icon" href="imgs/minhafoto.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/mq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <main>
-        <p>
-            <label for="day">DAY</label>
-            <input type="number" name="day" id="day" placeholder="DD" required>
-            
-            <label for="month">MONTH</label>
-            <input type="number" name="month" id="month" placeholder="MM" required>
+        <section id="data">
+            <p>
+                <label for="day">DAY</label>
+                <label for="month">MONTH</label>
+                <label for="year">YEAR</label>
+            </p>
 
-            <label for="year">YEAR</label>
-            <input type="number" name="year" id="year" placeholder="YYYY" required>
-        </p>
+                <p>
+                    <input type="number" name="day" id="day" placeholder="DD" required>
+                    <input type="number" name="month" id="month" placeholder="MM" required>
+                    <input type="number" name="year" id="year" placeholder="YYYY" required>
+                </p>
+        </section>
 
-        <p>
-            <div id="years">--years</div>
-        </p>
+        <div id="bola">
+            <span class="material-symbols-outlined" id="arrow">
+                arrow_downward
+            </span>
+        </div>
 
-        <p>
-            <div id="months">--months</div>
-        </p>
-
-        <p>
-            <div id="days">--days</div>
-        </p>
+        <section id="return">
+            <p>
+                <div id="years"><span class="destaque">--</span>years</div>
+            </p>
+            <p>
+                <div id="months"><span class="destaque">--</span>months</div>
+            </p>
+            <p>
+                <div id="days"><span class="destaque">--</span>days</div>
+            </p>
+        </section>
     </main>
 
     <script src="script/js.js"></script>

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F0F0F0;
+    font-family: "Poppins";
+}
+
+main{
+    background-color: white;
+    position: relative;
+    width: 375px;
+    height: 600px;
+    margin: auto;
+    transform: translateY(50px);
+    border-radius: 10px 10px 100px 10px;
+}
+
+main > section > p > input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: hsl(0, 0%, 86%);
+    font-size: 32px;
+}
+
+section#data label{
+    font-size: 1.2em;
+    color: hsl(0, 1%, 44%);
+}
+
+section#data input{
+    width: ;
+}
+
+section#return{
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.destaque{
+    color: hsl(259, 100%, 65%);
+}
+
+#bola{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: hsl(259, 100%, 65%);
+}
+
+#arrow{
+    font-size: 4em;
+    color: white;
+    transform: translate(16.75px,16.75px);
+}
