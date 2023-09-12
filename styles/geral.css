@@ -24,31 +24,33 @@ main{
     width: 375px;
     height: 600px;
     margin: auto;
-    transform: translateY(50px);
-    border-radius: 10px 10px 100px 10px;
+    transform: translateY(60px);
+    border-radius: 20px 20px 100px 20px;
+    padding: 20px;
+    padding-top: 40px ;
 }
 
 main > section > p > input{
     width: 100px;
-    height: 40px;
+    height: 60px;
     border-radius: 5px;
     border-color: hsl(0, 0%, 86%);
     font-size: 32px;
+    margin: 0px 4px 30px 4px;
+    text-align: center;
 }
 
 section#data label{
-    font-size: 1.2em;
+    font-size: 1em;
     color: hsl(0, 1%, 44%);
-}
-
-section#data input{
-    width: ;
+    margin: 0px 30px 0px 30px;
 }
 
 section#return{
     font-size: 60px;
     font-weight: bolder;
     font-style: italic;
+    color: hsl(0, 0%, 8%);
 }
 
 .destaque{
@@ -61,10 +63,22 @@ section#return{
     height: 100px;
     margin: auto;
     background-color: hsl(259, 100%, 65%);
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #arrow{
     font-size: 4em;
     color: white;
     transform: translate(16.75px,16.75px);
+}
+
+hr#esq{
+    transform: translateY(60px);
+    width:  117.8px;
+}
+
+hr#dir{
+        transform: translate(218px, 60px);
+        width:  117px;
 }
