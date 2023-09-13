@@ -26,6 +26,21 @@
         margin: 0px 45px 30px 45px;
         text-align: center;
     }
+
+    #errod{
+        transform: translate(55px, -30px);
+        font-size: 0.8em;
+    }
+    
+    #errom{
+        transform: translate(270px, -43px);
+        font-size: 0.8em;
+    }
+    
+    #erroy{
+        transform: translate(485px, -58px);
+        font-size: 0.8em;
+    }
     
     section#data label{
         font-size: 1em;

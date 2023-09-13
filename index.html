@@ -19,12 +19,14 @@
             </p>
 
                 <p>
-                    <input type="number" name="birth" id="day" placeholder="DD" autocomplete="bday-day">
-                    <input type="number" name="birth" id="month" placeholder="MM" autocomplete="bday-month">
-                    <input type="number" name="birth" id="year" placeholder="YYYY" autocomplete="bday-year">
+                    <input type="number" name="birth" id="day" placeholder="DD" autocomplete="bday-day" min="1" max="31">
+                    <input type="number" name="birth" id="month" placeholder="MM" autocomplete="bday-month" min="1" max="12">
+                    <input type="number" name="birth" id="year" placeholder="YYYY" autocomplete="bday-year" min="1910" max="2023">
                 </p>
 
-                <div id="error"></div>
+                <div id="errod">mensagem erro</div>
+                <div id="errom"> mensagem erro</div>
+                <div id="erroy"> mensagem erro</div>
         </section>
             <hr id="esq">
             <hr id="dir">

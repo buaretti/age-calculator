@@ -43,8 +43,33 @@ main > section > p > input{
     text-align: center;
 }
 
+#errod{
+    color: hsl(0, 100%, 67%);
+    font-size: 0.5em;
+    font-style: italic;
+    transform: translate(13px, -30px);
+    display: none;
+}
+
+#errom{
+    color: hsl(0, 100%, 67%);
+    font-size: 0.5em;
+    font-style: italic;
+    transform: translate(125px, -42px);
+    display: none;
+}
+
+#erroy{
+    color: hsl(0, 100%, 67%);
+    font-size: 0.5em;
+    font-style: italic;
+    transform: translate(238px, -54px);
+    display: none;
+}
+
 main > section > p > input:hover{
-    background-color:hsla(259, 100%, 65%, 0.242);
+    border-color:hsl(259, 100%, 65%);
+    cursor: pointer;
 }
 
 main > section > p > input:focus-within{
@@ -102,3 +127,9 @@ hr#dir{
         transform: translate(218px, 60px);
         width:  117px;
 }
+
+input[type="number"]::placeholder {
+    font-weight: bolder;
+    color: hsla(0, 1%, 44%, 0.712);
+}
+
