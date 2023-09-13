@@ -19,14 +19,16 @@
             </p>
 
                 <p>
-                    <input type="number" name="day" id="day" placeholder="DD" required>
-                    <input type="number" name="month" id="month" placeholder="MM" required>
-                    <input type="number" name="year" id="year" placeholder="YYYY" required>
+                    <input type="number" name="birth" id="day" placeholder="DD" autocomplete="bday-day">
+                    <input type="number" name="birth" id="month" placeholder="MM" autocomplete="bday-month">
+                    <input type="number" name="birth" id="year" placeholder="YYYY" autocomplete="bday-year">
                 </p>
+
+                <div id="error"></div>
         </section>
             <hr id="esq">
             <hr id="dir">
-        <div id="bola">
+        <div id="bola" onclick="clicou()">
             <span class="material-symbols-outlined" id="arrow">
                 arrow_downward
             </span>

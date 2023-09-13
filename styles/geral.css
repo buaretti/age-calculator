@@ -43,10 +43,22 @@ main > section > p > input{
     text-align: center;
 }
 
+main > section > p > input:hover{
+    background-color:hsla(259, 100%, 65%, 0.242);
+}
+
+main > section > p > input:focus-within{
+    background-color:hsla(259, 100%, 65%, 0.242);
+}
+
 section#data label{
     font-size: 1em;
     color: hsl(0, 1%, 44%);
     margin: 0px 26px 0px 35px;
+}
+
+section#data label:hover{
+    color:hsla(259, 69%, 55%, 0.693);
 }
 
 section#return{
@@ -68,6 +80,11 @@ section#return{
     background-color: hsl(259, 100%, 65%);
     margin-top: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#bola:hover{
+    background-color: hsla(259, 100%, 65%, 0.911);
 }
 
 #arrow{
